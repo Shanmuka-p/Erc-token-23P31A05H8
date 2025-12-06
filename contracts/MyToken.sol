@@ -1,3 +1,5 @@
+
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract MyToken {
@@ -55,7 +57,7 @@ contract MyToken {
         return true;
     }
 
-    
+    // helper: get total supply
     function getTotalSupply() public view returns (uint256) {
         return totalSupply;
     }
