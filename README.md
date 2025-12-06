@@ -83,12 +83,12 @@ This contract allows for the following interactions on the blockchain:
 To send 50 MTK to a friend:
 ```solidity
 // Note: You must add 18 zeros to the amount
-transfer("0xRecipientAddress...", 50000000000000000000)
+transfer("0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", 50000000000000000000)
 
 ### 2.Checking Balance
 
 ```solidity
-balanceOf("0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb")
+balanceOf("0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2")
 // Returns 0:
 uint256: 15000000000000000000
 
